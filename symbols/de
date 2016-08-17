@@ -475,6 +475,7 @@ xkb_symbols "neo" {
     include "level3(bksl_switch)"
     include "level5(lsgt_switch_lock)"
     include "level5(ralt_switch_lock)"
+    modifier_map Control {  <AD12>  };
 };
 
 // Copied from macintosh_vndr/de
